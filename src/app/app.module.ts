@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { RegistroComponent } from './pages/registro/registro.component';
@@ -17,7 +16,6 @@ import { MostrarUnaRecetaComponent } from './pages/mostrar-una-receta/mostrar-un
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     FooterComponent,
     InicioComponent,
     RegistroComponent,
