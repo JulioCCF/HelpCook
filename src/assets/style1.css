@@ -1,0 +1,57 @@
+body{
+    background-color: #f5f6ed;
+}
+.espacioiconos {
+    padding: 30px;
+   color: #3c240d;
+}
+
+.barracategorias {
+   
+    margin-top: 40px;
+    background-color: #d4d0c4;
+}
+
+.botones {
+    background-color: #8b9a8a;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:10px;
+    color: #d4d0c4;
+    width: 200px;
+    text-align: center;
+
+}
+.iconosbarra{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #3c240d;
+
+}
+.texto{
+    text-decoration: none;
+    color: #3c240d; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 300px;
+    
+  
+}
+.contenedorimagenes{
+    display:flex;
+ 
+}
+.imagenboton{
+    background-size: 50px 50px;
+    background-position:center;
+}
+.link{
+    font-size: larger;
+    font-weight: 500;
+    
+}
+a{
+    color: #3c240d;
+}
+a:hover {
+    color:#8b9a8a
+  }
