@@ -1,22 +1,22 @@
-<h1>Help Cook</h1>
-<form>
+<h1 class="text-center mb-5">Help Cook</h1>
+<form class="p-3 rounded" style="width: 400px;">
     <div class="form-group">
-        <label for="InputUsername">Nombre de usuario: </label>
+        <label class="d-block mb-3" for="InputUsername">Nombre de usuario: </label>
         <input type="text" class="form-control" name="username" id="InputUsername"
             placeholder="Introduzca su nombre de usuario" required>
     </div>
     <div class="form-group">
-        <label for="InputEmail1">Correo electrónico: </label>
+        <label class="d-block mb-3" for="InputEmail1">Correo electrónico: </label>
         <input type="email" class="form-control" name="email" id="InputEmail1"
             placeholder="Introduzca un correo electrónico válido" required>
     </div>
     <div class="form-group">
-        <label for="InputPassword1">Contraseña: </label>
+        <label class="d-block mb-3" for="InputPassword1">Contraseña: </label>
         <input type="password" class="form-control" name="password" id="InputPassword1" placeholder="Contraseña"
             required>
     </div>
     <div class="form-group">
-        <label for="confirm-password">Confirmar Contraseña: </label>
+        <label class="d-block mb-3" for="confirm-password">Confirmar Contraseña: </label>
         <input type="password" class="form-control" id="confirm-password" name="confirm-password"
             placeholder="Repita la contraseña" required>
     </div>
@@ -30,6 +30,6 @@
             <td> <label class="custom-control-label" for="customCheck2">Autorizo el uso de mi información</label></td>
         </tr>
     </div>
-    <button type="submit" class="btn btn-primary">Registrarme</button>
-    <p>¿Ya tienes una cuenta? <a class="link-login" href="/login">Iniciar Sesión</a></p>
+    <button type="submit" class="btn btn-primary d-flex justify-content-center text-center mt-4 mb-4 p-2" style="width: 45%">Registrarme</button>
+    <p class="text-center pt-2">¿Ya tienes una cuenta? <a class="link-login fw-bold" href="/login">Iniciar sesión</a></p>
 </form>

@@ -4,20 +4,20 @@ body {
 
 h1 {
     color: #3F2811;
-    text-align: center;
+    /* text-align: center; */
 }
 
 form {
     background-color: #D4D0C4;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
+    /* padding: 20px; */
+    /* border-radius: 10px;
+    width: 400px; */
     margin: 0 auto;
 }
 
 label {
-    display: block;
-    margin-bottom: 10px;
+    /* display: block;
+    margin-bottom: 10px; */
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
@@ -40,27 +40,23 @@ td{
 
 button {
     background-color: #8A9A8A;
+    border-color: #788378;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 33.3%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 33.3%; */
     border: none;
     border-radius: 5px;
-    padding: 5px;
-    cursor: pointer;
+    /* padding: 5px; */
+    /* cursor: pointer; */
     font-size: 16px;
     margin-left: 50%;
     margin-top: 20px;
     transform: translateX(-50%);
 }
 
-p{
-    margin-top: 20px;
-    text-align: center;
-}
-
 .link-login{
     color: #3F2811;
-    font-weight: bold;
+    /* font-weight: bold; */
 }

@@ -4,7 +4,6 @@ body {
 
 h1 {
     color: #3F2811;
-    /* text-align: center; */
 }
 
 form {
@@ -18,8 +17,9 @@ button {
     /* align-items: center; */
     /* justify-content: center; */
     /* width: 33.3%; */
-    border: none;
-    border-radius: 5px;
+    /* border: #788378; */
+    border-color: #788378;
+    /* border-radius: 5px; */
     /* padding: 5px; */
     /* cursor: pointer; */
     font-size: 16px;
@@ -30,4 +30,6 @@ button {
 .link-registro {
     color: #3F2811;
 }
+
+
 
