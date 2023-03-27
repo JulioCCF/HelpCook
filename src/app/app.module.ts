@@ -12,6 +12,7 @@ import { SubirRecetaComponent } from './pages/subir-receta/subir-receta.componen
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { MostrarRecetasComponent } from './pages/mostrar-recetas/mostrar-recetas.component';
 import { MostrarUnaRecetaComponent } from './pages/mostrar-una-receta/mostrar-una-receta.component';
+import { NavbarComponent } from './sharepage/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MostrarUnaRecetaComponent } from './pages/mostrar-una-receta/mostrar-un
     SubirRecetaComponent,
     PerfilComponent,
     MostrarRecetasComponent,
-    MostrarUnaRecetaComponent
+    MostrarUnaRecetaComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

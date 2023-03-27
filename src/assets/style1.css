@@ -4,6 +4,7 @@ body{
 .espacioiconos {
     padding: 30px;
    color: #3c240d;
+   
 }
 
 .barracategorias {
@@ -22,6 +23,7 @@ body{
     text-align: center;
 
 }
+
 .iconosbarra{
     margin-left: 40px;
     margin-right: 40px;
@@ -55,3 +57,8 @@ a{
 a:hover {
     color:#8b9a8a
   }
+  .slide {
+    max-width: 500px;
+    max-height: 350px;
+    
+}
